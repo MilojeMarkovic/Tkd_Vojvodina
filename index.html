@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" id="favicon" href="" />
+
+    <title>TKD Vojvodina</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="/">
+          <img src="/assets/logo.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="navbar-icon">
+            <span style="color: white">-</span>
+            <span style="color: white">-</span>
+            <span style="color: white">-</span>
+          </div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">O TEAKWONDO </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#club">O NAMA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">STRUČNI TIM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">RASPORED TRENINGA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">KONTAKT</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="welcome">
+      <div class="row h-100">
+        <div class="col-md-5">
+          <div
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              bg-white
+              h-100
+            "
+          >
+            <div class="welcome-text">
+              <span class="light_subtitle">DOBRODOSLI</span>
+
+              <h1>
+                <span class="caps_title">TAEKWONDO</span> <br />
+                Vojvodina
+              </h1>
+
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Numquam mollitia eaque minima commodi? Quas quos, obcaecati nemo
+                totam quis officiis iste, aut nostrum, enim accusamus assumenda
+                odit quae similique. Reiciendis!
+              </p>
+
+              <button onclick="toSchedule()" class="btn button_primary">
+                Raspored trening
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div
+            class="welcome-image h-100"
+            style="background-image: url(/assets/cover/1.jpg)"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-text">
+        <span class="light_subtitle">O TEAKWONDOU</span>
+        <h3>Saznaj vise o <span class="caps_title">TEAKWONDOU</span></h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+          perferendis porro, totam corrupti, explicabo laudantium repudiandae
+          excepturi, maiores maxime neque facilis tempora saepe. Repellendus
+          natus neque, illo ut fugiat et!
+        </p>
+      </div>
+    </section>
+
+    <section id="club" class="club">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="club-image"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="club-text">
+              <span class="light_subtitle">O NAMA</span>
+              <h3>Saznaj više o <span class="caps_title">NAŠEM KLUBU</span></h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Possimus ea est qui eum quidem iure rerum ut exercitationem!
+                Amet repellat neque modi similique id quo suscipit provident,
+                minus autem iusto. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Hic, laboriosam ab doloribus consectetur
+                incidunt laudantium nisi fuga facilis, necessitatibus culpa
+                alias nihil ipsa aspernatur ut magni iure autem maiores debitis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <div class="d-flex justify-content-center align-items-center mb-5">
+        <div class="team-text text-center">
+          <span class="light_subtitle">STRUČNI TIM</span>
+          <h3>Upoznaj naš <span class="caps_title">STRUČNI TIM</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi
+            vitae corporis sint optio, suscipit neque odit. Labore, eius. Id
+            maxime porro doloribus cupiditate fuga dolorum ipsum iure. Veniam,
+            neque!
+          </p>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-3">
+          <div class="team-member-image"></div>
+          <div class="team-member-text">
+            <h4>Drasko Jovanov</h4>
+            <span>Trener</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member-image"></div>
+          <div class="team-member-text">
+            <h4>Ana Jovanov</h4>
+            <span>Trener</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member-image"></div>
+          <div class="team-member-text">
+            <h4>Bojan Arbutina</h4>
+            <span>Trener</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member-image"></div>
+          <div class="team-member-text">
+            <h4>Petar Petrovic</h4>
+            <span>Trener</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button onclick="contactUs()" class="btn button_primary">
+          KONTAKTIRAJ NAS
+        </button>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="schedule-text">
+            <span class="light_subtitle">RASPORED TRENINGA</span>
+            <h3>
+              Organizuj svoj dan! <br />
+              <span class="caps_title">Priključi nam se</span>
+            </h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+              quidem laudantium, nihil placeat beatae molestiae earum quasi eos
+              iste pariatur sint alias. Error, exercitationem doloremque
+              voluptatum omnis consequuntur culpa amet!
+            </p>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="schedule-table">
+            <div class="schedule-table-day">
+              <span>PONEDELJAK</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+            <div class="schedule-table-day">
+              <span>UTORAK</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+            <div class="schedule-table-day">
+              <span>SREDA</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+            <div class="schedule-table-day">
+              <span>CETVRTAK</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+            <div class="schedule-table-day">
+              <span>PETAK</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-form">
+        <div class="text-center">
+          <span class="light_subtitle">KONTAKT</span>
+          <h3>Imaš pitanje? <span class="caps_title">KONTAKTIRAJ NAS</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            mollitia corrupti sint voluptate repellendus ut placeat, veniam
+            ullam. Unde similique alias officiis nostrum vero ex obcaecati aut
+            sequi ratione facere.
+          </p>
+        </div>
+
+        <div class="mb-5">
+          <input type="email" class="form-control mb-3" placeholder="Email" />
+          <textarea
+            name=""
+            id=""
+            rows="5"
+            class="form-control"
+            style="resize: none"
+            placeholder="Postavi pitanje"
+          ></textarea>
+        </div>
+
+        <div class="text-center">
+          <button class="btn button_primary">POSALJI</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <h3>Ili nas <span class="caps_title">POSETI</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, voluptates qui necessitatibus dicta assumenda libero
+              nobis. Doloremque dolorem ducimus maxime, repudiandae assumenda
+              totam error distinctio et possimus quia natus tempora?
+            </p>
+
+            <div class="location-address">
+              <img src="./assets/location.svg" alt="" class="mr-3" />
+              <div>
+                <p>Preradovićeva 141</p>
+                <p>21000, Novi Sad</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="location-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.4537022033746!2d19.884086815373546!3d45.23861747909885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1b7c95d4a12b%3A0x85b77cae477d191a!2sTaekwondo%20Klub%20Vojvodina!5e0!3m2!1sen!2srs!4v1651508985178!5m2!1sen!2srs"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#about">O TAEKWONDOU</a></li>
+            <li><a href="#club">O NAMA</a></li>
+            <li><a href="#team">STRUCNI TIM</a></li>
+            <li><a href="#schedule">RASPORED TRENINGA</a></li>
+            <li><a href="#contact">KONTAKT</a></li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="footer-privacy-terms">
+          <ul>
+            <li>PRIVACY POLICY</li>
+            <li>TERMS AND CONDITIONS</li>
+          </ul>
+        </div>
+
+        <div class="footer-social-icons">
+          <ul>
+            <li>
+              <a href="">
+                <img src="./assets/social-icons/facebook.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/tkd_vojvodina/"
+                target="_blank"
+              >
+                <img src="./assets/social-icons/instagram.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./assets/social-icons/twitter.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

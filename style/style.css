@@ -1,0 +1,230 @@
+/* GLOBAL STYLE */
+
+body {
+  height: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #ececec;
+}
+h1 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 40px;
+}
+h1 .caps_title,
+h3 .caps_title {
+  color: #c32026;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.button_primary {
+  background-color: #c32026;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.button_primary:hover {
+  background-color: #941a1e;
+  color: #fff;
+}
+.light_subtitle {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+.navbar-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+.nav-item a,
+.footer-links a {
+  color: #ececec !important;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.nav-item a:hover,
+.footer-links a:hover {
+  color: #bbbbbb !important;
+}
+.navbar {
+  background-color: #272727;
+  padding: 10px 20px !important;
+}
+.welcome {
+  height: 100vh;
+  background-color: #fff;
+}
+.welcome-text {
+  padding: 0 50px;
+}
+.welcome-image {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ABOUT */
+.about {
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-text {
+  text-align: center;
+  max-width: 750px;
+  width: 100%;
+  padding: 100px 0;
+}
+
+/* CLUB */
+.club {
+  padding: 100px 50px;
+}
+.club-image {
+  background-image: url("../assets/about-the-club.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 750px;
+  box-shadow: 20px 20px 0px 5px #272727;
+}
+.club-text {
+  padding: 0 20px;
+}
+
+/* TEAM */
+.team {
+  padding: 100px 50px;
+}
+.team-member-image {
+  height: 400px;
+  width: 100%;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+.team-member-text h4 {
+  color: #222222;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.team-member-text span {
+  color: #c32026;
+}
+.team,
+.contact {
+  background-color: #fbfbfb;
+}
+
+/* SCHEDULE */
+.schedule {
+  padding: 100px 50px;
+}
+.schedule-table {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+.schedule-table-day {
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+.schedule-table-day span {
+  color: #e5e5e5;
+}
+.schedule-table-card {
+  box-shadow: 4px 4px 20px #00000026;
+  border-radius: 5px;
+  padding: 10px;
+}
+.schedule-table-time {
+  display: flex;
+  align-items: center;
+}
+.schedule-table-card p {
+  margin: 0;
+}
+.schedule-table-time p {
+  margin: 0 5px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 100px 50px;
+}
+.contact-form {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* LOCATION */
+.location {
+  padding: 100px 50px;
+}
+.location-address {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location-address p {
+  margin: 0;
+}
+.location-map iframe {
+  box-shadow: -20px -20px 0px 5px #272727;
+}
+
+/* FOOTER */
+.footer {
+  padding: 100px 50px;
+  background-color: #272727;
+}
+.footer-links ul,
+.footer-privacy-terms ul,
+.footer-social-icons ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-links li,
+.footer-privacy-terms li,
+.footer-social-icons li {
+  font-size: 15px;
+  padding: 0 20px;
+}
+.footer-links li:not(:last-child),
+.footer-privacy-terms li:not(:last-child) {
+  border-right: 1px solid #ececec;
+}
+.footer hr {
+  max-width: 200px;
+  height: 2px;
+  width: 100%;
+  margin: 50px auto;
+  background-color: #ececec;
+}
+.footer-social-icons {
+  margin-top: 50px;
+}
