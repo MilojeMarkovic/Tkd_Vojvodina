@@ -30,10 +30,10 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <div class="navbar-icon">
-            <span style="color: white">-</span>
-            <span style="color: white">-</span>
-            <span style="color: white">-</span>
+          <div class="navbar-icon" onclick="menuToggle(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
         </button>
 
@@ -54,25 +54,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">KONTAKT</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
           </ul>
         </div>
       </nav>
@@ -210,23 +191,23 @@
     </section>
 
     <section id="schedule" class="schedule">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="schedule-text">
-            <span class="light_subtitle">RASPORED TRENINGA</span>
-            <h3>
-              Organizuj svoj dan! <br />
-              <span class="caps_title">Priključi nam se</span>
-            </h3>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              quidem laudantium, nihil placeat beatae molestiae earum quasi eos
-              iste pariatur sint alias. Error, exercitationem doloremque
-              voluptatum omnis consequuntur culpa amet!
-            </p>
-          </div>
+      <div class="text-center mb-5">
+        <div class="schedule-text">
+          <span class="light_subtitle">RASPORED TRENINGA</span>
+          <h3>
+            Organizuj svoj dan! <br />
+            <span class="caps_title">Priključi nam se</span>
+          </h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+            quidem laudantium, nihil placeat beatae molestiae earum quasi eos
+            iste pariatur sint alias. Error, exercitationem doloremque
+            voluptatum omnis consequuntur culpa amet!
+          </p>
         </div>
-        <div class="col-md-8">
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <div class="schedule-table">
             <div class="schedule-table-day">
               <span>PONEDELJAK</span>
@@ -278,6 +259,26 @@
                 <p>Napredna grupa</p>
               </div>
             </div>
+            <div class="schedule-table-day">
+              <span>SUBOTA</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
+            <div class="schedule-table-day">
+              <span>NEDELJA</span>
+              <div class="schedule-table-card">
+                <div class="schedule-table-time">
+                  <img src="./assets/schedule-logo.svg" alt="" />
+                  <p>19h-21:30h</p>
+                </div>
+                <p>Napredna grupa</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -289,10 +290,9 @@
           <span class="light_subtitle">KONTAKT</span>
           <h3>Imaš pitanje? <span class="caps_title">KONTAKTIRAJ NAS</span></h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            mollitia corrupti sint voluptate repellendus ut placeat, veniam
-            ullam. Unde similique alias officiis nostrum vero ex obcaecati aut
-            sequi ratione facere.
+            Imate bilo kakvih pitanja? Ne ustručavajte se direktno nas
+            kontaktirati. Nas tim će vam se obratiti u najkracem mogucem roku
+            kako bismo vam pomogli.
           </p>
         </div>
 

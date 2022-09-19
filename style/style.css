@@ -43,17 +43,43 @@ h3 .caps_title {
   display: block;
   margin-bottom: 20px;
 }
+button:focus {
+  outline: none;
+}
 
 /* NAVIGATION */
+.navbar-light .navbar-toggler {
+  border: none;
+}
 .navbar-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  cursor: pointer;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
 }
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+  transform: rotate(-45deg) translate(-9px, 7px);
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -7px);
+  transform: rotate(45deg) translate(-8px, -7px);
+}
+
 .nav-item a,
 .footer-links a {
   color: #ececec !important;
@@ -141,18 +167,21 @@ h3 .caps_title {
 }
 .schedule-table {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   height: 100%;
+  min-height: 400px;
 }
 .schedule-table-day {
   border: 1px solid #e5e5e5;
   text-align: center;
-  /* padding: 0 10px; */
+  padding: 0 5px;
 }
 .schedule-table-day span {
   color: #e5e5e5;
 }
 .schedule-table-card {
+  margin-top: 10px;
   box-shadow: 4px 4px 20px #00000026;
   border-radius: 5px;
   padding: 10px;

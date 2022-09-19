@@ -30,3 +30,6 @@ function contactUs() {
   const contact = document.getElementById("contact");
   contact.scrollIntoView({ behavior: "smooth" });
 }
+function menuToggle(e) {
+  e.classList.toggle("change");
+}
