@@ -106,6 +106,7 @@ button:focus {
   width: 100%;
   background-position: center;
   background-size: cover;
+  background-image: url("../assets/cover/1.jpg");
 }
 
 /* ABOUT */
